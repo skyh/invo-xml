@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<invoice n="1" date="2017-01-31" due-date="2017-02-15" contract="Hola Contractor Agreement dated 1970-01-01">
+	<sides>
+		<from>Jaffar Kumar Halib
+			213 Sand st., apt. 1409
+			Sandy desert
+			Algirea</from>
+		<to>Hola Networks Ltd.
+			3 Hamachshev st.
+			Netanya 4250713
+			Israel</to>
+	</sides>
+	<items>
+		<hours title="R&amp;D services" subtitle="01 Dec 2016&#8211;31 Dec 2016" q="124.6" p="3" />
+		<service title="Fixed monthly" subtitle="December 2016" q="1" p="150" />
+		<service title="Flight ticket #542143313" subtitle="DXB&#8594;TLV&#8594;DXB" q="1" p="1417.56" />
+	</items>
+	<remarks>
+		All bank commissions are paid by the recipient
+	</remarks>
+	<footer>
+		<col>
+			<p>Jaffar Kumar Halib</p>
+			<p>+1 234 567-34-56</p>
+			<p>jaffar.k@example.com</p>
+		</col>
+		<col>
+			<p>ITN 92847297202643</p>
+		</col>
+	</footer>
+</invoice>

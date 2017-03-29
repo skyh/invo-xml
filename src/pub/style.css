@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+body {
+	font-family: Lato;
+	font-size: 13pt;
+	line-height: 1.44;
+	margin: 15px;
+	position: relative;
+}
+
+h1 {
+	font-size: 32pt;
+	font-weight: 400;
+	margin: 0 0 0 0;
+}
+
+.org {
+	white-space: pre-line;
+}
+
+.sides::before,
+.sides::after,
+.invoice-fields::before,
+.invoice-fields::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.invoice-fields {
+	margin-top: 5pc;
+}
+
+.side {
+	float: left;
+	width: 50%;
+}
+
+.invoice-items {
+	/* border: 1px solid #ccc; */
+	border-collapse: collapse;
+	width: 100%;
+	font-size: inherit;
+	margin-top: 2em;
+	margin-left: -0.5em;
+}
+
+.invoice-item {
+	background: #f7f7f7;
+}
+
+.invoice-item:nth-child(2) {
+	background: #eeeeee;
+}
+
+.invoice-items td,
+.invoice-items th {
+	/* border: 1px solid #eee; */
+	padding: 0.5em;
+	vertical-align: top;
+}
+
+.invoice-items .num {
+	text-align: right;
+}
+
+.invoice-items .text {
+	text-align: left;
+}
+
+.invoice-items .text-title {
+	
+}
+
+.invoice-items .text-subtitle {
+	font-size: 75%;
+}
+
+.invoice-items .total {
+	text-align: right;
+	border-left: none;
+	border-bottom: none;
+}
+
+.invoice-fields .invoice-info {
+	float: left;
+	margin: 0;
+	font-size: inherit;
+	width: 50%;
+}
+
+.invoice-fields .to {
+	float: left;
+	margin: 0;
+	width: 40%;
+}
+
+.invoice-info {
+	margin: 3em 0;
+	padding: 0;
+}
+
+.invoice-info td {
+    vertical-align: top;
+}
+
+.invoice-info th {
+	text-align: left;
+	padding-right: 1em;
+	padding-left: 0;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.description {
+	margin-top: 1.25em;
+}
+
+@media print {
+	@page {
+		margin: 0;
+		size: auto;
+	}
+
+	body {
+		margin: 2cm 1cm 1cm 2.5cm;
+	}
+
+}
+
+.from {
+    position: absolute;
+    top: 0;
+    right: 5em;
+    border-left: 1px solid gray;
+    padding: 0.3em 1em;
+    font-size: 11pt;
+}
+
+.to {
+    margin-top: 2em;
+}
+
+h3 {
+    margin: 2em 0 0.5em;
+}
+
+span.cur-sym {
+    display: inline-block;
+    margin-right: 0.15em;
+}
+
+.footer {
+	font-size: 10pt;
+	position: absolute;
+	bottom: 0;
+	left: -1em;
+	right: -1em;
+	border-top: 1px solid #eee;
+	padding: 1em 1em 0;
+}
+.footer-col {
+	width: 30%;
+	float: left;
+}
+.footer p {
+	margin: 0 0 0.25em;
+}

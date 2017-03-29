@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "invo-xml",
+  "dependencies": {
+    "express": "^4.15.2",
+    "opn": "^4.0.2"
+  }
+}
