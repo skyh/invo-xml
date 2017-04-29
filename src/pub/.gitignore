@@ -1,1 +1,2 @@
-invoice.xml
+invoice-*.xml
+!invoice-example.xml
