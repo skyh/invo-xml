@@ -3,6 +3,7 @@
   "name": "invo-xml",
   "dependencies": {
     "express": "^4.15.2",
-    "opn": "^4.0.2"
+    "opn": "^4.0.2",
+    "serve-index": "^1.8.0"
   }
 }
