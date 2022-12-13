@@ -2,7 +2,7 @@
   "private": true,
   "name": "invo-xml",
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "opn": "^4.0.2",
     "serve-index": "^1.8.0"
   }
